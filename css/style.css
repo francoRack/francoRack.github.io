@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p,h1,h2,h3{
+    color: #fff;
+}
+ul{
+    list-style-type: none;
+    padding: 0 0 0 10px;
+}
+li{
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+
+.app{
+    background-color: #000;
+}
+.logo{
+    margin: auto;
+    background-color: #f27020;
+    z-index: 50;
+    text-align: right;
+}
+.logo-img{
+    margin: 5px 10px;
+    width: 150px;
+}
+.buttonMenuResp{
+    float: left;
+    margin: 15px;
+    border: none;
+    outline: none;
+    background-color: #f27020;
+}
+.fa-bars:before, .fa-navicon:before {
+    font-size: 30px;
+}
+
+.menu{
+    display: none;
+}
+.menuResp{
+    width: 50%;
+    margin: 0;
+    position: absolute;
+    background: #f27020;
+    margin-left: -400px;
+    transition: all .6s;
+    z-index: 15;
+}
+.mostrarList{
+    margin-top: 0;
+    margin-left: 0;
+}
+.enlace{
+    padding: 3px 0;
+}
+ul > li{
+    text-align: center;
+}
+.enlace a{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+.menuResp__nav{
+    width: 100%;
+}
+
+.fondo_home{
+    width: 100%;
+    height: 100vh;
+    background: #f17021;
+    background-size: contain;
+    margin-top: -23px;
+}
+.titulo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 150px 10px 75px 10px;
+}
+.container_button{
+    width: 280px;
+    margin: auto;
+}
+.boton{
+    width: 117px;
+    padding: 10px;
+    border: 1px solid rgb(165, 165, 165);
+    background-color: #fa0033b3;
+    margin: 15px auto;
+    border-radius: 6px;
+    display: flex;
+    align-content: center;
+    position: relative;
+    
+}.boton a{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.boton2{
+    width: 140px;
+    padding: 10px;
+    border: 1px solid rgb(165, 165, 165);
+    background-color: #fa0033b3;
+    border-radius: 6px;
+    margin: 30px auto;
+    position: relative;
+    display: flex;
+    align-content: center;
+}
+.boton2 a{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.contenido_pagina_home{
+    transition: all .8s;
+    height: 100%;
+}
+.custom{
+    padding: 0 10px;
+}
+.custom p{
+    font-size: 1.5em;
+}
+
+.pie{
+    background-color: #f17021;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    transition: all .8s;
+    height: 100vh;
+}
+.logo_inferior{
+    width: 200px;
+    margin: auto;
+}
+.logo_inferior img{
+    padding: 5px;
+}
+
+@media screen and (min-width: 280px) {
+    /* .boton{
+        margin: 15px 25%;
+    }
+    .boton2{
+        margin: 15px 23%;
+    } */
+}
+@media screen and (min-width: 300px) {
+}
+
+@media screen and (min-width: 500px) {
+    .contenido_pagina_home{
+        height: 100vh;
+        padding: 8%;
+    }
+    .pie{
+        height: 40%;
+    }
+}
+@media screen and (min-width: 660px) {
+    .mostrarList{
+        margin-top: 0;
+        margin-left: -30px;
+    }
+}
+@media screen and (min-width: 850px) {
+    .mostrarList{
+        margin-top: 0;
+        margin-left: -60px;
+    }
+}
+@media screen and (min-width: 950px) {
+   .buttonMenuResp{
+    display: none;
+   }
+   .menuResp{
+    display: none;
+   }
+   .menu{
+    display: block;
+   }
+   .header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f17021;
+   }
+   .menu__nav ul{
+    display: flex;
+   }
+   .nav__ul li{
+    margin: 15px 20px;
+   }
+   .logo{
+    margin: 20px 13px;
+   }
+}
