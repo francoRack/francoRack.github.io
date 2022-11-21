@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(2deg, rgb(238, 121, 12) -20%, #f17021);
+}
+p, h1, h2, h3, a{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.reservar{
+    text-decoration: none;
+    color: #fff;
+}
+.centrado{
+    text-align: center;
+    vertical-align: middle;
+}
+.seguinos{
+    text-align: center;
+    font-size: 1.8em;
+}
+.contacto{
+    font-size: 1.4em;
+}
+a:hover{
+    color: #f00;
+}
+.logo{
+    width: 10em;
+    margin: .3em .6em;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+footer{
+    background-color: #f17021;
+}
